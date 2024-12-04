@@ -19,4 +19,3 @@ class BasePage:
     def get_text(self, locator):
         """Obtenha o texto de um elemento."""
         return self.wait.until(EC.visibility_of_element_located(locator)).text
-

@@ -13,3 +13,4 @@ class CoursePage(BasePage):
         self.type((By.ID, "course-id"), course_id)
         self.click((By.CSS_SELECTOR, ".form-group:nth-child(4) > #course-btn"))
 
+

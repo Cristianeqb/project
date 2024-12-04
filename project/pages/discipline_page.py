@@ -14,3 +14,4 @@ class DisciplinePage(BasePage):
         self.type((By.ID, "subscribe-discipline-id"), discipline_id)
         self.click((By.CSS_SELECTOR, ".form-group:nth-child(6) > #course-btn"))
 
+
